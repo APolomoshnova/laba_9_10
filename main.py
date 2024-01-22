@@ -39,5 +39,5 @@ def menu():
 
 
 for _ in range(5):
-    thr = threading.Thread(target=menu(),)
+    thr = threading.Thread(target=menu)
     thr.start()
